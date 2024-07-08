@@ -8,5 +8,4 @@ int main(){
    }
    printf("Кількість рівних дільників числа %d : %d",n,count);
    scanf("%d",&exit);
-   printf("lkjasflsdjfd");
 }
