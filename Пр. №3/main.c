@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdbool.h>
 
 void genNum(int p, char *number, int position) {
     if (position == p) {
@@ -28,7 +27,7 @@ void genNum(int p, char *number, int position) {
 }
 
 int main() {
-    int p;
+    int p,exit;
     printf("Введіть число: ");
     scanf("%d", &p);
 
@@ -39,6 +38,6 @@ int main() {
 
     char number[p + 1];  
     genNum(p, number, 0);
-
+    scanf("%d",&exit);
     return 0;
 }
